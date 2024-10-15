@@ -1,0 +1,6 @@
+ErrorDocument 401 "Authorisation Required"
+AuthType Basic
+AuthName "Please authent"
+AuthUserFile /var/www/html/payment/admin/.htpasswd
+Require user username
+Satisfy All

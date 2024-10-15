@@ -1,0 +1,5 @@
+{
+    "require": {
+        "laminas/laminas-mail": "^2.25"
+    }
+}

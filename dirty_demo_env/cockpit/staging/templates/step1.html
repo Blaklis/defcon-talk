@@ -1,0 +1,16 @@
+<main class="form-signin">
+    <form method="POST">
+        <div class="form">
+            <div>Enter your token</div>
+            <input type="text" name="token" class="form-control" id="token" placeholder="XXXXXX">
+
+            <img style="margin: 15px 0;" src="captcha.php"></img>
+
+            <div>Enter the code you see in the image</div>
+            <input type="text" name="captcha" class="form-control" id="captcha" placeholder="">
+        </div>
+
+        <button class="w-100 btn btn-lg btn-primary buttons" type="submit">Sign in</button>
+        <button class="w-100 btn btn-lg btn-primary buttons" onclick="location.href='?reset'" type="button">Reset the process</button>
+    </form>
+</main>
